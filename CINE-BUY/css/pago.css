@@ -1,17 +1,25 @@
-#body{
-    background-color:#0f0f0f;
+#body {
+    background: #0f0f0f;
     margin: 0;
     padding: 0;
 }
 
 #header a {
-    color:#0f0f0f;
+    color: #0f0f0f;
 }
-#logo{
+
+#footer {
+    background-color: #D48921;
+    color: #0f0f0f;
+}
+
+#logo {
     max-width: 50px;
 }
+
+
 .flex-shrink-0 {
-    height: 25rem;
+    height: 19rem;
 }
 
 .text-uppercase {
@@ -23,12 +31,12 @@
 }
 
 .fs-6 {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 
 }
 
 .container_descripcion {
-    background-color: rgb(18, 18, 18);
+    background-color: rgb(0, 0, 0);
     border: #d48921 1px solid;
     height: 15rem;
     width: 15rem;
@@ -51,13 +59,31 @@
     background-color: #d48921;
     color: #000;
 }
-#footer{
-    background-color: #D48921;
-    color:#0f0f0f;
+
+.rounded {
+    height: 15rem;
 }
-.rounded{
-    height:15rem ;
+
+.modal-content {
+    background-color: #000;
 }
-.modal-title{
+
+.modal-title {
     color: #fff;
+}
+
+.w-100 {
+
+    width: 30rem !important;
+    height: 25rem;
+}
+
+.p-md-4 {
+    padding: 1.5rem !important;
+    background-color: black;
+}
+
+.ps-md-0 {
+    padding-left: 0 !important;
+    background-color: black;
 }
