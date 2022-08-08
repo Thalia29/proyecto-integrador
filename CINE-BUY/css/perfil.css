@@ -18,7 +18,18 @@ body {
     background-color: #404040;
     font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
 }
-
+#logo{
+    max-width: 50px;
+}       
+.nav-link{
+    color: #000;
+}
+.navbar-brand{
+    color: #000;
+}
+a:hover{
+    color: #000;
+}
 .seccion-perfil-usuario .perfil-usuario-body,
 .seccion-perfil-usuario {
     display: flex;

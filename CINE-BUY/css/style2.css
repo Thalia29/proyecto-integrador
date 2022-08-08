@@ -1,3 +1,5 @@
+
+
 #body{
     background-color:#424242;
     margin: 0;
@@ -11,12 +13,11 @@
 #logo{
     max-width: 50px;
 }
-
-.container{
-    position: relative;
-    min-height: 100vh;
+#footer{
+    background-color: #D48921;
+    color:#0f0f0f;
+  
 }
-
 .container h1{
     color: rgb(0, 0, 0);
     text-align: center;
@@ -24,7 +25,6 @@
     font-size: 40px;
     font-weight:normal;
 }
-
 .container .video-container{
     display:flex;
     flex-wrap: wrap;
@@ -32,7 +32,6 @@
     justify-content: center;
     padding: 10px;
 }
-
 .container .video-container .video{
     height:420px;
     width:390px;
@@ -43,19 +42,17 @@
     overflow: hidden;
 }
 
-.container .video-container .video video{
-    height: 100%;
-    width: 100%;
-    object-fit:cover;
-    transition: .2s linear;
+/*.container{
+    position: relative;
+    min-height: 100vh;
 }
 
 
-.container .video-container .video:hover video{
-    transform: scale(1.1)
-}
 
-#footer{
-    background-color: #D48921;
-    color:#0f0f0f;
-}
+
+
+
+
+
+
+*/
